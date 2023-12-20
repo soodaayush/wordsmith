@@ -23,6 +23,7 @@ button {
 }
 
 input {
+  font-family: "Spartan", sans-serif;
   border: none;
   outline: none;
 }
@@ -121,6 +122,7 @@ img {
       justify-content: start;
       align-items: center;
       width: 100%;
+      font-weight: bold;
     }
   }
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <h1>WordSmith</h1>
+        <div class="inputs">
+          <div class="input-group">
+            <label for="Chosen Word">Chosen Word:</label>
+            <input type="text" name="chosenWord" id="chosenWord" />
+          </div>
+          <div class="input-group">
+            <label for="Word Challenge">Word Challenge:</label>
+            <input type="text" name="wordChallenge" id="wordChallenge" />
+          </div>
+        </div>
+        <div class="inputs">
+          <div class="input-group">
+            <label for="">Alphabet Count:</label>
+            <input
+              type="text"
+              name="alphabetCount"
+              id="alphabetCount"
+              readonly
+            />
+          </div>
+          <div class="input-group">
+            <label for="">Alphabets Found:</label>
+            <input
+              type="text"
+              name="alphabetsFound"
+              id="alphabetsFound"
+              readonly
+            />
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="challengeBtn" id="challenge">Challenge</button
+          ><button class="resetBtn" id="reset">Reset</button>
+        </div>
+        <div class="word-history" id="wordHistory"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

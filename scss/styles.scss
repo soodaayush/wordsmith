@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  font-size: 16px;
+  font-family: "Spartan", sans-serif;
+}
+
+button {
+  font-family: "Spartan", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  background: #2c2e3c;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  .game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 20px;
+
+    .inputs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      .input-group {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-bottom: 15px;
+        flex-direction: column;
+
+        input {
+          border-radius: 10px;
+          width: 95%;
+          padding: 10px;
+          height: 40px;
+          text-transform: uppercase;
+
+          &:focus {
+            border: 5px solid #3d5ba4;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 15px;
+
+      .challengeBtn {
+        background: rgb(174, 3, 3);
+      }
+
+      .resetBtn {
+        background: #3863d9;
+      }
+
+      button {
+        color: white;
+        margin-right: 15px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 95%;
+        transition: 0.15s ease-in-out;
+
+        &:hover {
+          opacity: 0.75;
+        }
+      }
+    }
+
+    .word-history {
+      margin-top: 20px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .game {
+    .inputs {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .game {
+    .buttons {
+      flex-direction: column;
+
+      button {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

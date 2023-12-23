@@ -76,4 +76,6 @@ function reset() {
   alphabetCountInput.value = "";
   alphabetsFoundInput.value = "";
   wordHistory.innerHTML = "";
+
+  challengeCount = 0;
 }

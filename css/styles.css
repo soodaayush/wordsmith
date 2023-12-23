@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu Mono:wght@400;500;700;900&display=swap");
 *,
 *::after,
 *::before {
@@ -12,17 +12,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
   font-size: 16px;
-  font-family: "Spartan", sans-serif;
+  font-family: "Ubuntu Mono", sans-serif;
 }
 
 button {
-  font-family: "Spartan", sans-serif;
+  font-family: "Ubuntu Mono", sans-serif;
   cursor: pointer;
   border: none;
 }
 
 input {
-  font-family: "Spartan", sans-serif;
+  font-family: "Ubuntu Mono", sans-serif;
   border: none;
   outline: none;
 }
@@ -73,11 +73,15 @@ img {
   margin-bottom: 15px;
   flex-direction: column;
 }
+.container .game .inputs .input-group:last-child {
+  margin-left: 20px;
+}
 .container .game .inputs .input-group input {
   border-radius: 10px;
-  width: 95%;
+  width: 100%;
   padding: 10px;
   height: 40px;
+  padding-right: 20px;
   text-transform: uppercase;
 }
 .container .game .inputs .input-group input:focus {
@@ -99,11 +103,13 @@ img {
 }
 .container .game .buttons button {
   color: white;
-  margin-right: 15px;
   border-radius: 10px;
   padding: 10px;
-  width: 95%;
+  width: 100%;
   transition: 0.15s ease-in-out;
+}
+.container .game .buttons button:last-child {
+  margin-left: 20px;
 }
 .container .game .buttons button:hover {
   opacity: 0.75;

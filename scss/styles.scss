@@ -45,7 +45,7 @@ img {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   min-height: 100vh;
 
   .game {
@@ -56,7 +56,9 @@ img {
     width: 800px;
     border-radius: 10px;
     border: 1px solid grey;
+    box-shadow: #8892b0 0px 5px 15px;
     padding: 20px;
+    margin-top: 20px;
 
     .inputs {
       display: flex;

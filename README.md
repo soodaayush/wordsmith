@@ -13,3 +13,7 @@ Creating the functionality of the game, especially arounding checking if fields 
 ## The Website
 
 This is a website where you can play a word guessing game where you have a chosen word. When someone guesses a word, you challenge the word and it tells you what letters are in common.
+
+## Links
+
+Website: https://wordsmithy.netlify.app/

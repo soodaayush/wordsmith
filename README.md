@@ -4,11 +4,15 @@
 
 ## Inspiration
 
-This is a game I played a lot with friends and family on paper, so I decided that a website would be better for this game.
+This is a game I played a lot with friends and family on paper, so I decided that a website would be better for this game, due to many examples of human error being shown with games being played with paper and pencil.
 
 ## Challenges
 
 Creating the functionality of the game, especially arounding checking if fields are filled out correctly or not.
+
+## Lessons Learned
+
+I learned about comparing values and making sure all types of scenarios presented are met with an answer.
 
 ## The Website
 

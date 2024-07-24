@@ -4,11 +4,11 @@
 
 ## Inspiration
 
-This is a game I played a lot with friends and family on paper, so I decided that a website would be better for this game, due to many examples of human error being shown with games being played with paper and pencil.
+This is a game I played a lot with friends and family on paper, so I decided that a website would be better for this game due to many instances of human error when playing with paper and pencil.
 
 ## Challenges
 
-Creating the functionality of the game, especially arounding checking if fields are filled out correctly or not.
+Creating the functionality of the game, especially around checking if fields are filled out correctly or not.
 
 ## Lessons Learned
 
@@ -16,7 +16,7 @@ I learned about comparing values and making sure all types of scenarios presente
 
 ## The Website
 
-This is a website where you can play a word guessing game where you have a chosen word. When someone guesses a word, you challenge the word and it tells you what letters are in common.
+This is a website where you can play a word guessing game. You have a chosen word, and when someone guesses a word, you challenge the word, and it tells you what letters are in common.
 
 ## Links
 

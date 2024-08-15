@@ -5,8 +5,6 @@ const wordToScanInput = document.getElementById("wordChallenge");
 const alphabetCountInput = document.getElementById("alphabetCount");
 const alphabetsFoundInput = document.getElementById("alphabetsFound");
 
-let challengeCount = 0;
-
 const challengeBtn = document.getElementById("challenge");
 const resetBtn = document.getElementById("reset");
 
@@ -16,13 +14,15 @@ wordToScanInput.addEventListener("keydown", captureEnter);
 challengeBtn.addEventListener("click", challenge);
 resetBtn.addEventListener("click", reset);
 
+let challengeCount = 0;
+
 function initialize() {
   chosenWordInput.focus();
 }
 
 function captureEnter(e) {
   if (e.keyCode === 13) {
-    e.preventDefault(); // Ensure it is only this code that runs
+    e.preventDefault();
 
     challenge();
     e.target.select();

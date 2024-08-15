@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A word guessing game" />
     <meta name="robots" content="index,follow" />
-    <meta name="keywords" content="wordsmith, Wordsmith" />
+    <meta name="keywords" content="wordsmith, Wordsmith, WordSmith" />
     <meta name="author" content="Aayush Sood" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
     <title>WordSmith</title>
   </head>
@@ -20,17 +34,17 @@
         <h1>WordSmith</h1>
         <div class="inputs">
           <div class="input-group">
-            <label for="Chosen Word">Chosen Word:</label>
+            <label for="chosenWord">Chosen Word:</label>
             <input type="text" name="chosenWord" id="chosenWord" />
           </div>
           <div class="input-group">
-            <label for="Word Challenge">Word Challenge:</label>
+            <label for="wordChallenge">Word Challenge:</label>
             <input type="text" name="wordChallenge" id="wordChallenge" />
           </div>
         </div>
         <div class="inputs">
           <div class="input-group">
-            <label for="">Alphabet Count:</label>
+            <label for="alphabetCount">Alphabet Count:</label>
             <input
               type="text"
               name="alphabetCount"
@@ -39,7 +53,7 @@
             />
           </div>
           <div class="input-group">
-            <label for="">Alphabets Found:</label>
+            <label for="alphabetsFound">Alphabets Found:</label>
             <input
               type="text"
               name="alphabetsFound"
@@ -53,6 +67,20 @@
           ><button class="resetBtn" id="reset">Reset</button>
         </div>
         <div class="word-history" id="wordHistory"></div>
+      </div>
+      <div class="rules">
+        <h1>Rules</h1>
+        <p>
+          Decide on the number of letters for the word to be guessed. The word
+          creator thinks of a word with that many letters and enters it into the
+          "Chosen Word" box. When the player or team makes a guess, the word
+          creator inputs the guessed word into the "Word Challenge" box and
+          clicks the "Challenge" button. The "Alphabet Count" box then shows how
+          many letters the two words have in common, and the "Alphabets Found"
+          box reveals which letters are shared. The goal for the player or team
+          is to discover the word the creator initially thought of. Once a round
+          is finished, hit the "Reset" button to start a new game.
+        </p>
       </div>
     </div>
     <script src="script.js"></script>

@@ -4,7 +4,7 @@
 
 ## Inspiration
 
-This is a game I played a lot with friends and family on paper, so I decided that a website would be better for this game due to many instances of human error when playing with paper and pencil.
+This is a game I played a lot with family and friends on paper, so I decided that a website would be best for this game due to many instances of human error when playing with paper and pencil.
 
 ## Challenges
 

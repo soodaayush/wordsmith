@@ -1,6 +1,6 @@
 # WordSmith
 
-![wordsmith](https://github.com/user-attachments/assets/87a042e2-1a55-4726-a5f7-9dfd714a5580)
+![wordsmith](https://github.com/user-attachments/assets/7eb6c317-4ffe-4331-85c5-25f1f1e5486f)
 
 ## Inspiration
 
